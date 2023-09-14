@@ -1,7 +1,7 @@
 import React from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 
-export default function List({ todoData, setTodoData }) {
+export default function Lists({ todoData, setTodoData }) {
   const handleCompleteChange = (id) => {
     let newTodoData = todoData.map((data) => {
       if (data.id === id) {
